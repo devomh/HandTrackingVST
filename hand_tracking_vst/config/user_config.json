@@ -1,0 +1,37 @@
+{
+  "camera": {
+    "device_id": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30
+  },
+  "hand_tracking": {
+    "detection_confidence": 0.7,
+    "tracking_confidence": 0.5,
+    "max_hands": 2
+  },
+  "smoothing": {
+    "type": "ema",
+    "alpha": 0.3
+  },
+  "layout": {
+    "type": "grid",
+    "rows": 3,
+    "columns": 4,
+    "base_note": 60,
+    "note_interval": 1,
+    "margin": 0.1,
+    "presets": {
+      "chromatic_3x4": {
+        "rows": 3,
+        "columns": 4,
+        "base_note": 60,
+        "note_interval": 1
+      }
+    }
+  },
+  "midi": {
+    "virtual_port_name": "HandTracker",
+    "mpe_enabled": true
+  }
+}

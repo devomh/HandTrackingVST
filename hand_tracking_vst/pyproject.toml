@@ -1,0 +1,25 @@
+[project]
+name = "hand-tracking-vst"
+version = "0.1.0"
+description = "Real-time hand tracking MIDI controller with MPE support"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.dependencies]
+mediapipe = ">=0.10.0"
+opencv-python = ">=4.8.0"
+python-rtmidi = ">=1.5.0"
+numpy = ">=1.24.0"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0.0",
+  "pytest-cov>=4.0.0",
+  "black>=23.0.0",
+  "ruff>=0.1.0",
+  "mypy>=1.5.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
