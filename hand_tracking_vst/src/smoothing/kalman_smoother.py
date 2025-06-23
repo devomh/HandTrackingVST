@@ -1,6 +1,7 @@
 from .base_smoother import BaseSmoother
 import numpy as np
 
+
 class KalmanSmoother(BaseSmoother):
     """Placeholder for future Kalman filter implementation."""
 

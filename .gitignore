@@ -1,1 +1,67 @@
+# Project-specific folders
 designs/
+
+# Python environment
+hand_tracking_vst/.venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# uv
+.python-version
+uv.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Configuration and runtime files
+hand_tracking_vst/config/user_config.json
+hand_tracking_vst/config/calibration_data.json
+*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

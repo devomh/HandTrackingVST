@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import numpy as np
 
+
 class BaseSmoother(ABC):
     """Abstract base class for smoothing algorithms."""
 

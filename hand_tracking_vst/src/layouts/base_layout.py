@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional, Tuple
 
+
 class BaseLayout(ABC):
     """Abstract base class for zone layouts."""
 

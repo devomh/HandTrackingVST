@@ -17,7 +17,7 @@ class ConfigManager:
 
     def get(self, key_path: str, default=None):
         keys = key_path.split(".")
-        value = self.config
+        value: Any = self.config
         for key in keys:
             if isinstance(value, dict):
                 value = value.get(key)

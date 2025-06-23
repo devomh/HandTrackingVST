@@ -2,6 +2,7 @@ from typing import Dict, List, Optional, Tuple
 
 from .base_layout import BaseLayout
 
+
 class GridLayout(BaseLayout):
     """Simple rectangular grid layout."""
 
